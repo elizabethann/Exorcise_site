@@ -64,7 +64,7 @@ ul {
     float: right;
 }
 
-#name {
+.name {
 	font-family: 'Philosopher', sans-serif;
 	display: inline-block;
 	color: white;
@@ -413,6 +413,7 @@ ul {
 
 
 
+
 /* Instructions */
 
 /*#long-body{
@@ -515,6 +516,8 @@ ul {
     text-align: center;
     color: white;
     font-size: 25;
+    line-weight: 300px;
+    /* line-height: 1.8em; */
 }
 
 .step-header {
@@ -535,12 +538,13 @@ ul {
     width: 600;
     text-align: justify;
     font-weight: 300;
+    line-height: 1.8em;
 }
 
 #fitbit-image {
     position: relative;
     left: 800;
-    top: -80;
+    top: -110;
     width: 0;
 }
 
@@ -549,6 +553,101 @@ ul {
     position: absolute;
     top: 60;
     left: 360;
+}
+
+#step-long-text {
+    width: 1200;
+}
+
+/*Maybe combine this with title container later*/
+#faq-title { 
+    color: white;
+    font-size: 40px;
+    display: inline-block;   
+    margin-top: 200px;      
+    left: 100px;
+    position: relative;
+}
+
+/*Search bar*/
+
+#search-bar {
+                width:600px;
+                margin: 20 100;
+                /* margin:50px auto; */
+                font-family: 'Roboto Slab', serif;
+                margin-bottom: 50px;
+}
+
+input[type="text"] {
+    padding: 9px 15px;                 
+    background: white;                 
+    width: 400px;
+    font-size: 16;
+    font-family: 'Roboto Slab', serif;
+    /* border:0px solid #dbdbdb; */
+}
+
+input[type="button"] {
+    position: relative;                 
+    padding: 8px 15px;
+    left:-8px;                 
+    border: 3px solid #207cca;
+    background-color:#207cca;                 
+    color: white;
+    font-size: 16;
+    font-family: 'Roboto Slab', serif;
+}
+
+input[type="button"]:hover {
+    background-color: #fafafa;
+    color:#207cca;
+}
+
+.faq-question {
+    padding: 20px 100px;
+    /* margin-left: 100px; */
+    color: white;
+    font-size: 24px;
+    background-color: red;
+}
+
+.faq-answer {
+    color: white;
+    background-color: red;
+    padding-left: 120;
+    font-weight: 300;
+    line-height: 1.8em;
+    padding-bottom: 20px;
+    padding-right: 100;
+    text-align: justify;
+}
+
+.footer-container {
+    color: white;
+    background-color: 363A42;
+    position: absolute;
+    top: 900;
+    width: 100%;
+    height: 60px;
+    /* padding-left: 20; */
+    z-index: 100;
+}
+
+#dash-footer {
+    top: 3130;
+}
+
+.footer-item {
+    margin-right: 100;
+    display: inline-block;
+    padding-top: 7px;
+}
+
+#footer-name{
+    font-size: 20px;
+    padding-left: 100;
+    margin-top: -4;
 }
 
 
