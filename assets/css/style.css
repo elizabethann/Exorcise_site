@@ -1,7 +1,15 @@
 body {
     margin: 0px;
-    height: 2000px;
+    height: 900px;
     /*background-color: orange;*/
+}
+
+a {
+    color: white;
+}
+a:link{
+    background-color:transparent; 
+    text-decoration:none;
 }
 
 /* Top bar CSS */
@@ -403,7 +411,13 @@ ul {
 
 
 
+
+
 /* Instructions */
+
+/*#long-body{
+    height: 2000px;
+}*/
 
 .hexagon {
   position: relative;
@@ -536,3 +550,6 @@ ul {
     top: 60;
     left: 360;
 }
+
+
+
