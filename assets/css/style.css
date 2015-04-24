@@ -1,6 +1,7 @@
 body {
     margin: 0px;
-    height: 900px;
+    height: 2000px;
+    /*background-color: orange;*/
 }
 
 /* Top bar CSS */
@@ -68,6 +69,10 @@ ul {
     position: absolute;
     top: 8px;
 }
+
+
+
+
 
 
 /*Dashboard*/
@@ -143,6 +148,8 @@ ul {
     width: 100%;
     text-align: center;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .page-title {
@@ -390,4 +397,142 @@ ul {
 #level-select-title {
     font-size: 28px;
     margin-bottom: 30px;
+}
+
+
+
+
+
+/* Instructions */
+
+.hexagon {
+  position: relative;
+  width: 60px; 
+  height: 34.64px;
+  background-color: #64C7CC;
+  margin: 17.32px 0;
+  left: -28px;
+  z-index: 100;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 17.32px solid #64C7CC;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 17.32px solid #64C7CC;
+}
+
+#q6-container {
+    margin-left: 40px;
+    margin-top: 90px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+#q6-spine {
+    width: 4px;
+    height: 1910px;
+    background: #857c78;
+    border-radius: 2px;
+    position: relative;
+    z-index: 100;
+
+}
+
+#step1 {
+    top: -1860;
+}
+
+#step2 {
+    top: -1314;
+}
+
+#step3 {
+    top: -764;
+}
+
+#step4 {
+    top: -218;
+}
+
+/* Slides */
+
+.instruction-page{
+    height: 600px;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+#step1-page {
+    background-color: teal;
+}
+#step2-page {
+    background-color: orange;
+}
+#step3-page {
+    background-color: green;
+}
+#step4-page {
+    background-color: red;
+}
+
+#page-container{
+    background-color: orange;
+    height: 2000px;
+    width: 100%;
+    position: absolute;
+    top: 243;
+    z-index: 5;
+}
+
+.step-text{
+    text-align: center;
+    color: white;
+    font-size: 25;
+}
+
+.step-header {
+    position: relative;
+    left: 100;
+    top: 55;
+    font-size: 40;
+    color: white;
+    width: 500;
+}
+
+.step-description {
+    left: 100px;
+    position: relative;
+    color: white;
+    top: 100;
+    font-size: 20;
+    width: 600;
+    text-align: justify;
+    font-weight: 300;
+}
+
+#fitbit-image {
+    position: relative;
+    left: 800;
+    top: -80;
+    width: 0;
+}
+
+#fitbit-logo img {
+    height: 40px;
+    position: absolute;
+    top: 60;
+    left: 360;
 }

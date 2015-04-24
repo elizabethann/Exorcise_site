@@ -86,7 +86,7 @@
 }
 .slick-prev:before
 {
-    content: '<';
+    content: '\25C0';
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -104,7 +104,7 @@
 }
 .slick-next:before
 {
-    content: '>';
+    content: "\25B6";
 }
 [dir='rtl'] .slick-next:before
 {
@@ -175,7 +175,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 6px;
+    font-size: 10px;
     line-height: 20px;
 
     position: absolute;
@@ -185,7 +185,7 @@
     width: 20px;
     height: 20px;
 
-    content: 'â€¢';
+    content: '\2022';
     text-align: center;
 
     opacity: .25;
