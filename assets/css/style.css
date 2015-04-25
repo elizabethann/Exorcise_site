@@ -497,7 +497,7 @@ ul {
     background-color: orange;
 }
 #step3-page {
-    background-color: green;
+    background-color: magenta;
 }
 #step4-page {
     background-color: red;
@@ -634,8 +634,8 @@ input[type="button"]:hover {
     z-index: 100;
 }
 
-#dash-footer {
-    top: 3130;
+#instruction-footer {
+    top: 3190;
 }
 
 .footer-item {
@@ -648,6 +648,112 @@ input[type="button"]:hover {
     font-size: 20px;
     padding-left: 100;
     margin-top: -4;
+}
+
+#extra{
+    background-color: red;
+    width: 100%;
+    height: 50px;
+}
+
+
+#gameshot {
+    position: relative;
+    left: 850;
+    top: -40;
+    width: 0;
+}
+
+#up-key{
+    color: white;
+    padding: 20;
+    padding-right: 40;
+    width: 10px;
+    border-radius: 10%;
+    /* margin: 20; */
+    background-color: gray;
+    display: inline-block;
+    /* margin-left: 0; */
+    position: absolute;
+    left: 260;
+    top: 70;
+}
+
+#controls {
+    position: relative;
+    top: -260;
+    left: 100;
+    width: 675;
+    height: 230;
+    color: white;
+    font-size: 22;
+    border: solid white;
+    padding: 20;
+    border-radius: 3%;
+}
+
+.key {
+    color: white;
+    padding: 20 30;
+    /* padding-right: 40; */
+    width: 10px;
+    border-radius: 10%;
+    margin: 20;
+    background-color: gray;
+    /* display: inline; */
+    margin-left: 0;
+}
+
+#goo-dude {
+    position: relative;
+    top: -180px;
+    left: 410;
+    width: 0;
+}
+
+#flashlight {
+    display: inline-block;
+    position: relative;
+    top: -200;
+    left: 425;
+}
+
+.tiny-text {
+    position: absolute;
+}
+
+#tiny-header {
+    font-size: 22;
+}
+
+#tiny-description {
+    font-weight: 200;
+    font-size: 16;
+}
+
+#P {
+    left: 100;
+    top: 85;
+}
+
+#UP {
+    left: 350;
+    top: 85;
+}
+
+#H {
+    left: 100;
+    top: 170;
+}
+
+#F {
+    top: 85;
+    left: 510;
+}
+
+#G {
+    top: 170;
+    left: 510;
 }
 
 
