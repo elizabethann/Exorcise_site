@@ -764,10 +764,10 @@ input[type="button"]:hover {
 
 .question-hexagon {
   position: absolute;
-  top: 100;
+  top: 684;
   left: 100;
   width: 200px; 
-  height: 115.47px;
+  height: 116px;
   background-color: #64C7CC;
   transform: rotateZ(90deg);
   margin: 57.74px 0;
@@ -795,13 +795,13 @@ input[type="button"]:hover {
 }
 
 
-#question-answer {
+.question-answer {
     background-color: orange;
     height: 200;
     width: 75%;
     position: absolute;
     left: 200px;
-    top:115;
+    top: 700;
     display: none;
     border-radius: 5px;
 }
@@ -863,6 +863,48 @@ input[type="button"]:hover {
     height: 60;
     font-size: 22;
     border-radius: 5px;
+}
+
+#home-container {
+    height: 3000px;
+}
+
+#question2 {
+    top: 890;
+}
+
+#question2 #question-text {
+    width: 130;
+    top: -300;
+}
+
+#answer2 {
+    top: 905;
+    background-color: green;
+}
+.hidden-selection {
+    width: 100%;
+    height: 205;
+    background-color: teal;
+    -webkit-transition: all 0.3s;
+}
+
+#selection2{
+    background-color: yellow;
+}
+
+#dummy-waypoint1 {
+    position: relative;
+    top: 500;
+}
+
+#dummy-waypoint2 {
+    position: relative;
+    top: 985;
+}
+
+#question3 {
+    top: 1095;
 }
 
 

@@ -5,23 +5,78 @@ $(document).ready(function(){
 	  slidesToScroll: 2
 	});
 
-	var waypoint = new Waypoint({
-		element: document.getElementsByClassName('question-hexagon'),
+	var waypoint1 = new Waypoint({
+		element: document.getElementById('question1'),
 		handler: function(direction) {
 			if(direction == 'down'){
-				console.log("down");
-				$('#question-answer').fadeIn(300);
-				$('#question-answer').css('position', 'fixed');
-				$('#question-answer').css('top', '80');
-				$('.question-hexagon').css('position', 'fixed');
-				$('.question-hexagon').css('top', '65');
+				$('#answer1').slideDown();
+				$('#answer1').css('position', 'fixed');
+				$('#answer1').css('top', '80');
+				$('#question1').css('position', 'fixed');
+				$('#question1').css('top', '65');
+				$('#selection1').css('height', '700')
+				$('#question2').css('top', '1385');
+				$('#question3').css('top', '1590');
 
 			} else {
-				$('#question-answer').fadeOut(300);
-				$('#question-answer').css('position', 'absolute');
-				$('#question-answer').css('top', '115');
-				$('.question-hexagon').css('position', 'absolute');
-				$('.question-hexagon').css('top', '100');
+				$('#answer1').slideUp();
+				$('#answer1').css('position', 'absolute');
+				$('#answer1').css('top', '699');
+				$('#question1').css('position', 'absolute');
+				$('#question1').css('top', '684');
+				$('#selection1').css('height', '205')
+				$('#question2').css('top', '890');
+				$('#question3').css('top', '1095');
+			}
+
+		},
+		offset: 80
+	})
+
+	var waypoint2 = new Waypoint({
+		element: document.getElementById('dummy-waypoint1'),
+		handler: function(direction) {
+			if(direction == 'down'){
+				$('#answer2').slideDown();
+				$('#answer2').css('position', 'fixed');
+				$('#answer2').css('top', '80');
+				$('#question2').css('position', 'fixed');
+				$('#question2').css('top', '65');
+				$('#selection2').css('height', '700')
+				$('#question3').css('top', '2085');
+
+			} else {
+				$('#answer2').slideUp();
+				$('#answer2').css('position', 'absolute');
+				$('#answer2').css('top', '699');
+				$('#question2').css('position', 'absolute');
+				$('#question2').css('top', '1385');
+				$('#selection2').css('height', '205')
+				$('#question3').css('top', '1590');
+			}
+
+		},
+		offset: 80
+	})
+
+	var waypoint3 = new Waypoint({
+		element: document.getElementById('dummy-waypoint2'),
+		handler: function(direction) {
+			if(direction == 'down'){
+				$('#answer3').slideDown();
+				$('#answer3').css('position', 'fixed');
+				$('#answer3').css('top', '80');
+				$('#question3').css('position', 'fixed');
+				$('#question3').css('top', '65');
+				$('#selection3').css('height', '700')
+
+			} else {
+				$('#answer3').slideUp();
+				$('#answer3').css('position', 'absolute');
+				$('#answer3').css('top', '699');
+				$('#question3').css('position', 'absolute');
+				$('#question3').css('top', '2085');
+				$('#selection3').css('height', '205')
 			}
 
 		},
