@@ -9,6 +9,10 @@ $(document).ready(function(){
 		element: document.getElementById('question1'),
 		handler: function(direction) {
 			if(direction == 'down'){
+				$('#home-container').css('height', '3040');
+				$('#home-footer').css('top', '3040');
+				$('#tombstone').fadeIn();
+				$('#money').fadeIn();
 				$('#answer1').slideDown();
 				$('#answer1').css('position', 'fixed');
 				$('#answer1').css('top', '79');
@@ -22,6 +26,10 @@ $(document).ready(function(){
 
 
 			} else {
+				$('#home-container').css('height', '1540');
+				$('#home-footer').css('top', '1540');
+				$('#tombstone').fadeOut();
+				$('#money').fadeOut();
 				$('#answer1').slideUp();
 				$('#answer1').css('position', 'absolute');
 				$('#answer1').css('top', '699');
@@ -41,6 +49,11 @@ $(document).ready(function(){
 		element: document.getElementById('dummy-waypoint1'),
 		handler: function(direction) {
 			if(direction == 'down'){
+				$('#home-container').css('height', '3730');
+				$('#home-footer').css('top', '3730');
+				$('#fitbit').fadeIn();
+				$('#signal').fadeIn();
+				$('#signal-heart').fadeIn();
 				$('#answer2').slideDown();
 				$('#answer2').css('position', 'fixed');
 				$('#answer2').css('top', '79');
@@ -51,6 +64,11 @@ $(document).ready(function(){
 				$('#question3').css('top', '2985');
 
 			} else {
+				$('#home-container').css('height', '3040');
+				$('#home-footer').css('top', '3040');
+				$('#fitbit').fadeOut();
+				$('#signal').fadeOut();
+				$('#signal-heart').fadeOut();
 				$('#answer2').slideUp();
 				$('#answer2').css('position', 'absolute');
 				$('#answer2').css('top', '699');
@@ -69,6 +87,11 @@ $(document).ready(function(){
 		element: document.getElementById('dummy-waypoint2'),
 		handler: function(direction) {
 			if(direction == 'down'){
+				$('#home-container').css('height', '3800');
+				$('#home-footer').css('top', '3800');
+				$('#care-to').fadeIn()
+				$('#exorcise-big').fadeIn();
+				$('#selection3').children('#sign-up-button').fadeIn()
 				$('#answer3').slideDown();
 				$('#answer3').css('position', 'fixed');
 				$('#answer3').css('top', '79');
@@ -77,11 +100,16 @@ $(document).ready(function(){
 				$('#selection3').css('height', '800')
 
 			} else {
+				$('#home-container').css('height', '3730');
+				$('#home-footer').css('top', '3730');
+				$('#care-to').fadeOut()
+				$('#exorcise-big').fadeOut();
+				$('#selection3').children('#sign-up-button').fadeOut()
 				$('#answer3').slideUp();
 				$('#answer3').css('position', 'absolute');
-				$('#answer3').css('top', '3000');
+				$('#answer3').css('top', '2985');
 				$('#question3').css('position', 'absolute');
-				$('#question3').css('top', '3000');
+				$('#question3').css('top', '2985');
 				$('#selection3').css('height', '205')
 			}
 
@@ -148,12 +176,12 @@ $(document).ready(function(){
 		element: document.getElementById('dummy-waypoint-lives'),
 		handler: function(direction) {
 			if(direction == 'down'){
-				$('#lives').fadeIn(300);
+				$('#lives-home').fadeIn(300);
 				$('#miles-text').css('opacity', '0');
 
 
 			} else {
-				$('#lives').fadeOut(300);
+				$('#lives-home').fadeOut(300);
 				$('#miles-text').css('opacity', '1');
 			}
 		}
@@ -163,16 +191,31 @@ $(document).ready(function(){
 		element: document.getElementById('dummy-waypoint-lives-end'),
 		handler: function(direction) {
 			if(direction == 'down'){
-				$('#lives').fadeOut(300);
+				$('#lives-home').fadeOut(300);
 				$('#wall-box').fadeOut(300);
 
 
 			} else {
-				$('#lives').fadeIn(300);
+				$('#lives-home').fadeIn(300);
 				$('#wall-box').fadeIn(300);
 
 			}
 		}
 	})
+
+	$("#selection3").children( "#sign-up-button" ).mouseenter(function () {
+		$('#exorcise-big').css('color', 'AB1461');
+	})
+
+	$("#selection3").children( "#sign-up-button" ).mouseleave(function () {
+		$('#exorcise-big').css('color', 'white');
+	})
+
+	$('#lives').children(".triangle-up").click(function () {
+		// var currLives = parseInt($('#lives').children.('.resource-number').text());
+		// $('#lives').children.('.resource-number').text(currLives + 1);
+		console.log("hello");
+
+	});
 				
 });
