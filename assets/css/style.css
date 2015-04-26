@@ -507,18 +507,22 @@ ul {
 
 #step1 {
     top: -1860;
+    color: white;
 }
 
 #step2 {
     top: -1314;
+    color: white;
 }
 
 #step3 {
     top: -764;
+    color: white;
 }
 
 #step4 {
     top: -218;
+    color: white;
 }
 
 /* Slides */
@@ -553,7 +557,6 @@ ul {
 
 .step-text{
     text-align: center;
-    color: white;
     font-size: 25;
     line-weight: 300px;
     /* line-height: 1.8em; */
@@ -592,6 +595,17 @@ ul {
     position: absolute;
     top: 60;
     left: 360;
+}
+
+#dashshot {
+    width: 0;
+    position: relative;
+    top: -200;
+    left: 52%;
+}
+
+#dashshot img {
+    width: 700;
 }
 
 #step-long-text {
@@ -909,6 +923,7 @@ input[type="button"]:hover {
     background-color: 86BDAD;
     -webkit-transition: all 0.5s;
     font-family: 'Roboto Slab', serif;
+    color: white;
 }
 
 #question2 {
