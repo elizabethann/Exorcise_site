@@ -1166,6 +1166,16 @@ input[type="button"]:hover {
     -webkit-transition: all 0.5s;
 }
 
+@media (max-width: 1320px) {
+    #right-dash{
+        left: -10px;
+        top: 730px;
+    }
+    #dash-footer{
+        top: 1600px;
+    }
+}
+
 
 
 
