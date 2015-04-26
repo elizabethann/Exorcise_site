@@ -44,8 +44,8 @@ $(document).ready(function(){
 		element: document.getElementById('dummy-waypoint1'),
 		handler: function(direction) {
 			if(direction == 'down'){
-				$('#home-container').css('height', '3930');
-				$('#home-footer').css('top', '3930');
+				$('#home-container').css('height', '3900');
+				$('#home-footer').css('top', '3900');
 				$('#fitbit').fadeIn();
 				$('#signal').fadeIn();
 				$('#signal-heart').fadeIn();
@@ -82,8 +82,8 @@ $(document).ready(function(){
 		element: document.getElementById('dummy-waypoint2'),
 		handler: function(direction) {
 			if(direction == 'down'){
-				$('#home-container').css('height', '3930');
-				$('#home-footer').css('top', '3930');
+				$('#home-container').css('height', '3900');
+				$('#home-footer').css('top', '3900');
 				$('#care-to').fadeIn()
 				$('#exorcise-big').fadeIn();
 				$('#selection3').children('#sign-up-button').fadeIn()
@@ -95,8 +95,8 @@ $(document).ready(function(){
 				$('#selection3').css('height', '800')
 
 			} else {
-				$('#home-container').css('height', '3930');
-				$('#home-footer').css('top', '3930');
+				$('#home-container').css('height', '3900');
+				$('#home-footer').css('top', '3900');
 				$('#care-to').fadeOut()
 				$('#exorcise-big').fadeOut();
 				$('#selection3').children('#sign-up-button').fadeOut()
