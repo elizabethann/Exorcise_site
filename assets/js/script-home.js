@@ -82,8 +82,8 @@ $(document).ready(function(){
 		element: document.getElementById('dummy-waypoint2'),
 		handler: function(direction) {
 			if(direction == 'down'){
-				$('#home-container').css('height', '4000');
-				$('#home-footer').css('top', '4000');
+				$('#home-container').css('height', '3930');
+				$('#home-footer').css('top', '3930');
 				$('#care-to').fadeIn()
 				$('#exorcise-big').fadeIn();
 				$('#selection3').children('#sign-up-button').fadeIn()
