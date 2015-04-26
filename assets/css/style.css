@@ -20,7 +20,7 @@ a:link{
 	height: 80px;
 	background-color: 363A42;
 	/* -webkit-transform: translateX(-280px); */
-	-webkit-transition: all 0.3s;
+	-webkit-transition: all 0.5s;
 	z-index: 1000;
 }
 
@@ -629,7 +629,7 @@ input[type="button"]:hover {
     color: white;
     background-color: 363A42;
     position: absolute;
-    top: 900;
+    top: 3800;
     width: 100%;
     height: 60px;
     /* padding-left: 20; */
@@ -797,6 +797,7 @@ input[type="button"]:hover {
 
 .question-answer {
     background-color: orange;
+    font-family: 'Roboto Slab', serif;
     height: 200;
     width: 75%;
     position: absolute;
@@ -804,6 +805,7 @@ input[type="button"]:hover {
     top: 700;
     display: none;
     border-radius: 5px;
+    z-index: 19;
 }
 
 #question-text {
@@ -867,6 +869,7 @@ input[type="button"]:hover {
 
 #home-container {
     height: 3000px;
+    background-color: teal;
 }
 
 #question2 {
@@ -886,26 +889,183 @@ input[type="button"]:hover {
     width: 100%;
     height: 205;
     background-color: teal;
-    -webkit-transition: all 0.3s;
+    -webkit-transition: all 0.5s;
 }
 
 #selection2{
     background-color: yellow;
+    z-index: 18;
+    position: relative;
 }
 
 #dummy-waypoint1 {
-    position: relative;
-    top: 500;
+    position: absolute;
+    width: 2;
+    height: 3;
+    top: 2300;
+    background-color: black;
+    z-index: 200;
 }
 
 #dummy-waypoint2 {
     position: relative;
-    top: 985;
+    top: 1895;
 }
+
+#dummy-waypoint-tombstone {
+    position: relative;
+    top: -100;
+}
+
+#dummy-waypoint-tombstone-release {
+    position: relative;
+    top: 120;
+}
+
+#dummy-waypoint-miles {
+    position: relative;
+    top: 500;
+}
+
+#dummy-waypoint-miles-slide {
+    position: relative;
+    top: 600;
+}
+
+#dummy-waypoint-lives {
+    position: relative;
+    top: 650;
+}
+
+#dummy-waypoint-lives-end {
+    position: relative;
+    top: 850;
+}
+
+
 
 #question3 {
     top: 1095;
 }
+
+
+
+/*put these all in one class!*/
+#answer3 .step-description {
+    font-size: 18;
+    left: 150;
+    top: 50;
+    width: 75%;
+}
+
+#answer2 .step-description {
+    font-size: 18;
+    left: 150;
+    top: 50;
+    width: 75%;
+}
+
+#answer1 .step-description {
+    font-size: 18;
+    left: 150;
+    top: 50;
+    width: 75%;
+}
+
+.animations{
+    position: relative;
+    top: 100;
+    width: 75%;
+    height: 300;
+    left: 150;
+/*    background-color: red;*/
+    z-index: 14;
+}
+
+#tombstone img {
+    width: 200;
+}
+
+#tombstone {
+    width: 0;
+    position: relative;
+    top: 600;
+    left: 600;
+    z-index: 2;
+}
+
+#money img {
+    width: 100;
+}
+
+#money {
+    position: relative;
+    top: 500;
+    left: 625;
+    z-index: 1;
+    width: 0;
+}
+
+#miles-text {
+    color: white;
+    font-size: 60;
+    position: relative;
+    top: 120;
+    left: 200;
+    display: none;
+    -webkit-transition: left 0.5s;
+
+}
+
+#wall-box {
+    position: relative;
+    z-index: 4;
+    height: 200;
+    width: 300;
+    left: 700;
+    background-color: teal;
+    border-left: solid 8px;
+    display: none;
+}
+
+#lives {
+    position: relative;
+    top: -380;
+    left: 400;
+    width: 0;
+    display: none;
+    z-index: 9;
+}
+
+#fitbit {
+    position: relative;
+    top: 400;
+    left: 425;
+    width: 0;
+}
+
+#signal img {
+    width: 100;
+}
+
+#signal {
+    position: relative;
+    top: 200;
+    left: 700;
+    width: 0;
+}
+
+#signal-heart img {
+    width: 200;
+}
+
+#signal-heart {
+    width: 0;
+    left: 925;
+    position: relative;
+}
+
+
 
 
 
