@@ -1168,11 +1168,33 @@ input[type="button"]:hover {
 
 @media (max-width: 1320px) {
     #right-dash{
-        left: -10px;
+        left: 0px;
+        margin: 0 auto;
         top: 730px;
     }
     #dash-footer{
         top: 1600px;
+    }
+    #left-dash {
+        margin: 0 auto;
+    }
+    .long-hexagon{
+        left: 160px;
+    }
+    #ghost-container{
+        left:-70;
+    }
+    .long-tall-hexagon{
+        left:140px;
+    }
+    #real-stats{
+        left:-100px;
+    }
+    #game-stats{
+        left:-60px;
+    }
+    #level-select{
+        left:0;
     }
 }
 
