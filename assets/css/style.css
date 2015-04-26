@@ -249,7 +249,7 @@ ul {
 /* Right Side */
 
 #right-dash {
-    left: 750;
+    left: 680;
     font-family: 'Roboto Slab', serif;
 
 }
@@ -406,7 +406,7 @@ ul {
 #level-select {
     position: relative;
     top: 380;
-    left: 200;
+    left: 180;
     text-align: center;
 }
 
