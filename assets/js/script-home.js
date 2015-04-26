@@ -4,8 +4,8 @@ $(document).ready(function(){
 		element: document.getElementById('question1'),
 		handler: function(direction) {
 			if(direction == 'down'){
-				$('#home-container').css('height', '3040');
-				$('#home-footer').css('top', '3040');
+				$('#home-container').css('height', '3240');
+				$('#home-footer').css('top', '3240');
 				$('#tombstone').fadeIn();
 				$('#money').fadeIn();
 				$('#answer1').slideDown();
@@ -44,8 +44,8 @@ $(document).ready(function(){
 		element: document.getElementById('dummy-waypoint1'),
 		handler: function(direction) {
 			if(direction == 'down'){
-				$('#home-container').css('height', '3730');
-				$('#home-footer').css('top', '3730');
+				$('#home-container').css('height', '3930');
+				$('#home-footer').css('top', '3930');
 				$('#fitbit').fadeIn();
 				$('#signal').fadeIn();
 				$('#signal-heart').fadeIn();
@@ -59,8 +59,8 @@ $(document).ready(function(){
 				$('#question3').css('top', '2985');
 
 			} else {
-				$('#home-container').css('height', '3040');
-				$('#home-footer').css('top', '3040');
+				$('#home-container').css('height', '3240');
+				$('#home-footer').css('top', '3240');
 				$('#fitbit').fadeOut();
 				$('#signal').fadeOut();
 				$('#signal-heart').fadeOut();
@@ -82,8 +82,8 @@ $(document).ready(function(){
 		element: document.getElementById('dummy-waypoint2'),
 		handler: function(direction) {
 			if(direction == 'down'){
-				$('#home-container').css('height', '3800');
-				$('#home-footer').css('top', '3800');
+				$('#home-container').css('height', '4000');
+				$('#home-footer').css('top', '4000');
 				$('#care-to').fadeIn()
 				$('#exorcise-big').fadeIn();
 				$('#selection3').children('#sign-up-button').fadeIn()
@@ -95,8 +95,8 @@ $(document).ready(function(){
 				$('#selection3').css('height', '800')
 
 			} else {
-				$('#home-container').css('height', '3730');
-				$('#home-footer').css('top', '3730');
+				$('#home-container').css('height', '3930');
+				$('#home-footer').css('top', '3930');
 				$('#care-to').fadeOut()
 				$('#exorcise-big').fadeOut();
 				$('#selection3').children('#sign-up-button').fadeOut()

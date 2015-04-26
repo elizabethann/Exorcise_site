@@ -1161,7 +1161,10 @@ input[type="button"]:hover {
     -webkit-transition: all 0.5s;
 }
 
-/*homebody orig = 1340, then 2740, then 3210, then 3800*/
+@media (max-height: 900px) {
+
+}
+
 
 
 
