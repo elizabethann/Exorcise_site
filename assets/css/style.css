@@ -529,7 +529,7 @@ ul {
 /* Slides */
 
 .instruction-page{
-    height: 1000px;
+    height: 600px;
     width: 100%;
     font-family: 'Roboto Slab', serif;
 }
@@ -1205,6 +1205,9 @@ input[type="button"]:hover {
 
 /*Instructions*/
 @media (max-width: 1360px) {
+    .instruction-page{
+        height: 1000px;
+    }
     #q6-spine{
         height: 3110px;
     }
