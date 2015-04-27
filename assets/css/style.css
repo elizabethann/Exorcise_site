@@ -1166,6 +1166,8 @@ input[type="button"]:hover {
     -webkit-transition: all 0.5s;
 }
 
+
+/*Dashboard*/
 @media (max-width: 1320px) {
     #right-dash{
         left: 0px;
@@ -1201,6 +1203,48 @@ input[type="button"]:hover {
     }
 }
 
+/*Instructions*/
+@media (max-width: 1360px) {
+    #q6-spine{
+        height: 3110px;
+    }
+    #step1{
+        top: -3060px;
+    }
+    #step2{
+        top: -2114px;
+    }
+    #step3{
+        top: -1164px;
+    }
+    #fitbit-image{
+        top:150;
+        left:100;
+    }
+    #dashshot{
+        top:200;
+        left:100;
+    }
+    #gameshot{
+        left:100;
+        top:150;
+    }
+    #controls{
+        top:160;
+    }
+    #instruction-footer{
+        top:4700;
+    }
+
+    #page-container{
+        height: 4500;
+    }
+
+    #step-long-text{
+        width: 824;
+    }
+
+}
 
 
 
