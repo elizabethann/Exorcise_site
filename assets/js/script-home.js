@@ -158,11 +158,12 @@ $(document).ready(function(){
 	var miles = new Waypoint({
 		element: document.getElementById('dummy-waypoint-miles-slide'),
 		handler: function(direction) {
+			var mt = $('#miles-text').offset();
 			if(direction == 'down'){
-				$('#miles-text').offset({left: 940});
+				$('#miles-text').offset({left: mt.left + 200});
 
 			} else {
-				$('#miles-text').offset({left: 400});
+				$('#miles-text').offset({left: mt.left - 200});
 			}
 		}
 	})
