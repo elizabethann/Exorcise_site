@@ -15,24 +15,24 @@ a:link{
 /* Top bar CSS */
 
 .topbar-container{
-	position: fixed;
-	width: 100%;
-	height: 80px;
-	background-color: 363A42;
-	/* -webkit-transform: translateX(-280px); */
-	-webkit-transition: all 0.5s;
-	z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: 363A42;
+    /* -webkit-transform: translateX(-280px); */
+    -webkit-transition: all 0.5s;
+    z-index: 1000;
 }
 
 
 .topbar-item{
-	font-weight: 300;
-	font-size: 20px;
-	color: white;
-	padding: 14px 40px;
-	display: inline-block;
-	float: right;
-	letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    padding: 14px 40px;
+    display: inline-block;
+    float: right;
+    letter-spacing: 2px;
 }
 
 #dumbell img {
@@ -59,18 +59,18 @@ a:link{
 }
 
 ul {
-	font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
     display: inline-block;
     float: right;
 }
 
 .name {
-	font-family: 'Philosopher', sans-serif;
-	display: inline-block;
-	color: white;
-	position: absolute;
-	top: 23.5px;
-	font-size: 32;
+    font-family: 'Philosopher', sans-serif;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top: 23.5px;
+    font-size: 32;
 }
 
 #dumbell {
@@ -98,15 +98,15 @@ ul {
 /* Left Half */
 
 #hex1 {
-	background-color: 4CB4A5;
-	top: 300px;
-	z-index: 30;
+    background-color: 4CB4A5;
+    top: 300px;
+    z-index: 30;
 }
 
 #hex2 {
-	background-color: 4CB4A5;
-	top: 230px;
-	z-index: 30;
+    background-color: 4CB4A5;
+    top: 230px;
+    z-index: 30;
 }
 
 .options-container {
@@ -124,7 +124,8 @@ ul {
   height: 651px;
   background-color: 4CB4A5;
   /* margin: 86.60px 0; */
-  transform: rotateZ(90deg);
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
   left: 340px;
 }
 
@@ -149,7 +150,8 @@ ul {
 }
 
 .hex-text {
-    transform: rotateZ(-90deg);
+    -webkit-transform: rotateZ(-90deg);
+            transform: rotateZ(-90deg);
     margin-top: 320px;
     /* position: absolute; */
     font-family: 'Roboto Slab', serif;
@@ -197,7 +199,8 @@ ul {
   height: 651px;
   background-color: 4CB4A5;
   /* margin: 86.60px 0; */
-  transform: rotateZ(90deg);
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
   left: 340px;
 }
 
@@ -236,7 +239,8 @@ ul {
 }
 
 .hex-text-tall {
-    transform: rotateZ(-90deg);
+    -webkit-transform: rotateZ(-90deg);
+            transform: rotateZ(-90deg);
     margin-top: 301px;
     /* position: absolute; */
     font-family: 'Roboto Slab', serif;
@@ -411,17 +415,17 @@ ul {
 }
 
 .level-labels {
-	background-color: AB1461;
-	border-radius: 50%;
-	text-align: center;
+    background-color: AB1461;
+    border-radius: 50%;
+    text-align: center;
     border: solid #AB1461;
 
 }
 
 #txt {
-	margin-top: 38px;
-	font-size: 20px;
-	color: white;
+    margin-top: 38px;
+    font-size: 20px;
+    color: white;
 }
 
 #level-select-title {
@@ -626,11 +630,11 @@ ul {
 /*Search bar*/
 
 #search-bar {
-                width:600px;
-                margin: 20 100;
-                /* margin:50px auto; */
-                font-family: 'Roboto Slab', serif;
-                margin-bottom: 50px;
+    width:600px;
+    margin: 20 100;
+    /* margin:50px auto; */
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 50px;
 }
 
 input[type="text"] {
@@ -825,7 +829,8 @@ input[type="button"]:hover {
   width: 200px; 
   height: 117px;
   background-color: #86BDAD;
-  transform: rotateZ(90deg);
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
   margin: 57.74px 0;
   z-index: 20;
 }
@@ -1149,8 +1154,6 @@ input[type="button"]:hover {
     left: 35%;
     width: 400;
     -webkit-transition: color 0.4s ease;
-    -moz-transition: color 0.4s ease;
-    -o-transition: color 0.4s ease;
     transition: color 0.4s ease;
     display: none;
 }
@@ -1312,13 +1315,3 @@ input[type="button"]:hover {
     
 
 }
-
-
-
-
-
-
-
-
-
-
