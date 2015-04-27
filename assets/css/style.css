@@ -1241,6 +1241,7 @@ input[type="button"]:hover {
 
     #page-container{
         height: 4500;
+        background-color: #AB1461;
     }
 
     #step-long-text{
