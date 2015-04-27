@@ -160,10 +160,10 @@ $(document).ready(function(){
 		handler: function(direction) {
 			var mt = $('#miles-text').offset();
 			if(direction == 'down'){
-				$('#miles-text').offset({left: mt.left + 500});
+				$('#miles-text').offset({left: mt.left + 400});
 
 			} else {
-				$('#miles-text').offset({left: mt.left - 500});
+				$('#miles-text').offset({left: mt.left - 400});
 			}
 		}
 	})
