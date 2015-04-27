@@ -21,6 +21,7 @@ a:link{
     background-color: 363A42;
     /* -webkit-transform: translateX(-280px); */
     -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
     z-index: 1000;
 }
 
@@ -932,6 +933,7 @@ input[type="button"]:hover {
     height: 1540px;
     background-color: 86BDAD;
     -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
     font-family: 'Roboto Slab', serif;
     color: white;
 }
@@ -954,6 +956,7 @@ input[type="button"]:hover {
     height: 205;
     background-color: 4CB4A5;
     -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
 }
 
 #selection2{
@@ -1080,6 +1083,7 @@ input[type="button"]:hover {
     left: 200;
     display: none;
     -webkit-transition: left 0.5s;
+    -ms-transition: left 0.5s;
 
 }
 
@@ -1155,6 +1159,7 @@ input[type="button"]:hover {
     width: 400;
     -webkit-transition: color 0.4s ease;
     transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
     display: none;
 }
 
@@ -1167,6 +1172,7 @@ input[type="button"]:hover {
 #home-footer {
     top: 1540;
     -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
 }
 
 
