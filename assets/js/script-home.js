@@ -71,7 +71,7 @@ $(document).ready(function(){
 				$('#question2').css('top', '2285');
 				$('#selection2').css('height', '205');
 				$('.animations').show();
-				$('#question3').css('top', '2290');
+				$('#question3').css('top', '2490');
 			}
 
 		},
@@ -147,10 +147,15 @@ $(document).ready(function(){
 			if(direction == 'down'){
 				$('#miles-text').slideDown();
 				$('#wall-box').slideDown();
+				$('#show').slideUp();
+				$('#hidden').slideDown();
 
 			} else {
 				$('#miles-text').slideUp();
 				$('#wall-box').slideUp();
+				$('#show').slideDown();
+				$('#hidden').slideUp();
+				
 			}
 		}
 	})
