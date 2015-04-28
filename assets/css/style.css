@@ -5,9 +5,14 @@ body {
     height: 900px;
 }
 
+#curr-page {
+    border-bottom: solid #AB1461;
+}
+
 a {
     color: white;
 }
+
 a:link{
     background-color:transparent; 
     text-decoration:none;
@@ -34,10 +39,22 @@ a:link{
     font-weight: 300;
     font-size: 20px;
     color: white;
-    padding: 14px 40px;
+    padding: 10px 20px;
     display: inline-block;
     float: right;
     letter-spacing: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.topbar-item:hover{
+    background-color: AB1461;
+    color: white;
+}
+
+#curr-page:hover{
+    background-color: AB1461;
+    color: white;
 }
 
 #dumbell img {
