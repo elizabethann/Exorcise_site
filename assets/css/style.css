@@ -50,6 +50,7 @@ a:link{
 .topbar-item:hover{
     background-color: AB1461;
     color: white;
+    border-bottom: solid #AB1461;
 }
 
 #curr-page:hover{
